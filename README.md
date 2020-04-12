@@ -7,7 +7,7 @@ There are two python files in this repository, one is an implementation of MLP o
 
 ## Setup
 Install keras\
-`pip install`
+`pip install keras`
 
 # Run
 To run the code, just type this on the terminal (make sure that the directory & environment is correct):\
@@ -16,7 +16,9 @@ To run the code, just type this on the terminal (make sure that the directory & 
 ## Results
 Here are the summary of the model that has been created in this experiment, and the accuracy of the model when working on the "MNIST dataset"
 ### Model Summary
+![](img/MLP_MNIST_Summary_Keras.PNG)
 ### Model Accuracy
+![](img/MLP_MNIST_Accuracy_Keras.PNG)
 
 ## Code Explanation
 First, import the required libraries and necessary modules
@@ -104,8 +106,12 @@ The results of the experiment include:
 Explanation on how to get these results from the code will be explained in the "Code Explanation" section.
 
 ### Accuracy
-### Confusion Matrix
-### Classification Report
+![](img/MLP_MNIST_Accuracy.PNG)
+### Confusion Matrix & Classification Report
+#### Training Dataset
+![](img/MLP_MNIST_Training_ConfusionMatrix_ClassificationReport.PNG)
+#### Test Dataset
+![](img/MLP_MNIST_Test_ConfusionMatrix_ClassificationReport.PNG)
 
 ## Code Explanation
 First, import the required libraries and necessary modules
